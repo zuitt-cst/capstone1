@@ -1,11 +1,76 @@
-.card-title {
+#menu {
+
+	/* UI Properties */
+	background: #003E86 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#hm, #prjcts, #tls, #cntct {
+	/* Layout Properties */
+	margin-left: 50px;
+	/* UI Properties */
 	text-align: center;
+	font: normal normal 500 20px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+#landing {
+	/* UI Properties */
+	background: #CBDCF2 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.landing-text {
+	color: #003E86;
+	opacity: 1;
+}
+
+.card {
+	/* Layout Properties */
+
+	/* UI Properties */
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: -1px 3px 6px #00000029;
+	border-radius: 15px;
+	opacity: 1;
+}
+.card-title {
+	/* UI Properties */
+	text-align: left;
+	font: normal normal 600 20px Montserrat;
+	letter-spacing: 0px;
+	color: #003E86;
+}
+
+.card-text {
+	/* UI Properties */
+	text-align: left;
+	font: normal normal medium 14px Montserrat;
+	letter-spacing: 0px;
+	color: #003E86;
+}
+
+.card-img {
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	opacity: 1;
+}
+
+.tools-img {
+	padding: 15px;
 }
 
 #gmap_canvas {
 	height: 60vh;
 	width: 100%;
+	/* UI Properties */
+	background: transparent url('img/Screenshot 2025-02-18 at 9.18.24 AM.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
 }
+
 
 .fab {
 	font-size: 2rem;
@@ -17,8 +82,24 @@ html {
 
 body {
 	font-family: "Poppins",sans-serif; 
+	background: #F0F7FF 0% 0% no-repeat padding-box;
+	opacity: 1;
 }
 
 h1,h2,h3,h4, .nav-link,.card-title {
-	font-family: "Lora",serif;
+	font-family: "Montserrat", serif;
+	color: #003E86;
+	opacity: 1;
+}
+
+h1 {
+	/* UI Properties */
+	font: normal normal 750 45px/30px Montserrat;
+	color: #003E86;
+}
+
+
+footer {
+	background: #003E86 0% 0% no-repeat padding-box;
+	opacity: 1;
 }
